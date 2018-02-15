@@ -1,12 +1,14 @@
-name: "my-website"
+name: "Yasmin Ayala-Johnson"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Selected Topics Statistics Project"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
-      href: about.html.
+      href: about.html
 output:
   html_document:
     theme: flatly
     highlight: zenburn
+  

@@ -1,5 +1,17 @@
 ---
-title: "About This Website"
+title: "About This Website and The Creator of It"
 ---
 
 I am **Yasmin**. I am super duper ^cool^. You are not as cool as me! HA HA
+
+<figure>
+<img src="pic4.jpg" style = "height:300px;">
+If you love what you see or would like to get in touch with me, please reach out to me via [my email](https://mail.google.com/mail/u/0/#inbox/1619b4b4cffe0d3b) or via [linkedin](https://www.linkedin.com/in/yasminayalajohnson/)! 
+
+
+
+Have fun searching through this website friends!
+
+<figure>
+<img src="pic8.JPG" style = "height:300px;">
+</figure>

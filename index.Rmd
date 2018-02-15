@@ -1,6 +1,11 @@
 ---
-title: "My Website"
+title: "Topic that I decide to work on"
 ---
+<figure>
+<img src="myimageforwebsite.jpg"
+style = "height:200px;"
+align = "right" , hspace = "25">
+</figure>
 
 Hello, Website! This is super duper cool! First website! Coding is still stressful though!
 ```{r}
@@ -8,3 +13,4 @@ x <- 1:5
 y <- 6:10
 
 plot(x,y)
+```
