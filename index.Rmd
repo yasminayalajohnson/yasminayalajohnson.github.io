@@ -22,10 +22,10 @@ Diversity recruitment, however, does not just rely on bringing in people from di
 
 <center> <h3>Google's Reported Demographic Information: 2014-2017</h3> </center>
 ```{r fig.width= 20, fig.height = 10, echo=FALSE}
-percentage <- c(70,30,61,30,4,3,2,1,1,70,30,60,31,3,3,2,1,1,69,31,59,32,3,3,2,1,1,69,31,56,35,4,4,2,1,1 )
+percentage <- c(72,3,1,1,1,1,1,72,23,2,1,2,1,1,70,25,2,1,2,1,1,68,27,2,2,2,1,1 )
 
 mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
-                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                 dimnames = list(c("White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
                                  c("2014", "2015","2016","2017")))
 #colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
 years <- c("2014", "2015","2016","2017")
@@ -40,10 +40,10 @@ years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
 ```
 <center> <h3>Google's Reported Demographic Information: Tech Based Jobs 2014-2017</h3> </center>
 ```{r fig.width= 20, fig.height = 10, echo=FALSE}
-percentage <- c(83,17,60,33,3,2,1,1,1,82,18,59,35,3,2,1,1,1,81,19,57,37,3,3,1,1,1,80,20,53,39,3,3,1,1,1)
+percentage <- c(72,3,1,1,1,1,1,72,23,2,1,2,1,1,70,25,2,1,2,1,1,68,27,2,2,2,1,1)
 
 mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
-                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                 dimnames = list(c("White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
                                  c("2014", "2015","2016","2017")))
 #colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
 years <- c("2014", "2015","2016","2017")
@@ -60,10 +60,10 @@ years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
 
 <center> <h3>Google's Reported Demographic Information: Non-Tech Based Jobs 2014-2017</h3> </center>
 ```{r fig.width= 20, fig.height = 10, echo=FALSE}
-percentage <- c(52,48,65,23,5,4,3,1,1,53,47,64,23,4,4,4,1,1,53,47,63,23,4,5,4,1,1,52,48,61,23,5,5,5,1,1)
+percentage <- c(72,3,1,1,1,1,1,72,23,2,1,2,1,1,70,25,2,1,2,1,1,68,27,2,2,2,1,1)
 
 mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
-                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                 dimnames = list(c("White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
                                  c("2014", "2015","2016","2017")))
 #colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
 years <- c("2014", "2015","2016","2017")
@@ -81,10 +81,10 @@ years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
 
 <center> <h3>Google's Reported Demographic Information: Leadership Positions 2014-2017</h3> </center>
 ```{r fig.width= 20, fig.height = 10, echo=FALSE}
-percentage <- c(79,21,72,3,1,1,1,1,1,78,22,72,23,2,1,2,1,1,76,24,70,25,2,1,2,1,1,75,25,68,27,2,2,2,1,1)
+percentage <- c(72,3,1,1,1,1,1,72,23,2,1,2,1,1,70,25,2,1,2,1,1,68,27,2,2,2,1,1)
 
 mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
-                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                 dimnames = list(c("White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
                                  c("2014", "2015","2016","2017")))
 #colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
 years <- c("2014", "2015","2016","2017")
@@ -97,3 +97,82 @@ axis(2, at = 0:100, labels = 0:100)
 legend("topright", c("2014", "2015","2016","2017"),
 years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
 ```
+
+<center> <h3>Google's Reported Demographic Information Based on Gender 2014-2017</h3> </center>
+
+```{r fig.width= 5, echo=FALSE}
+percentage <- c(70,30,70,30,69,31,69,31)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Male", "Female"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=2)
+```
+
+<center> <h3>Google's Reported Demographic Information Based on Gender: Tech Jobs 2014-2017</h3> </center>
+
+```{r fig.width= 5, echo=FALSE}
+percentage <- c(83,17,82,18,81,19,80,20)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Male", "Female"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=2)
+```
+
+<center> <h3>Google's Reported Demographic Information Based on Gender: Non-Tech Jobs 2014-2017</h3> </center>
+```{r fig.width= 5, echo=FALSE}
+percentage <- c(52,48,53,47,53,47,52,48)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Male", "Female"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=2)
+```
+
+<center> <h3>Google's Reported Demographic Information Based on Gender: Leadership Position 2014-2017</h3> </center>
+```{r fig.width= 5, echo=FALSE}
+percentage <- c(79,21,78,22,76,24,75,25)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Male", "Female"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=2)
+```
+
