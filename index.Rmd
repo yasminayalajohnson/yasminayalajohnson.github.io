@@ -1,5 +1,5 @@
 ---
-title: "Topic that I decide to work on"
+title: "Google's Diversity Issues"
 ---
 <figure>
 <img src="myimageforwebsite.jpg"
@@ -7,10 +7,93 @@ style = "height:200px;"
 align = "right" , hspace = "25">
 </figure>
 
-Hello, Website! This is super duper cool! First website! Coding is still stressful though!
-```{r}
-x <- 1:5
-y <- 6:10
 
-plot(x,y)
+<figure>
+<img src="Googlepic.png"
+style = "height:200px;"
+align = "left" >
+</figure>
+
+One issue at the forefront of many professionals in organizational science is on diversity. There have been many debates on what that means or how companies go about “diversity recruitment” the wrong ways. For example, while Google has made it a point to release their own reports on where their current employee demographic are (as far as diversity), they have almost exclusively, since 2014, focused on gender in their tactics. This has not only led them to criticism, especially since black and Hispanic employees have consistently made up a mere 3-5% of their company since they begin releasing reports four years ago, but because the women that they are bring in are overwhelmingly white women. This past June Google went even further to instate a new vice president of diversity, Danielle Brown. It came as no surprise to anyone when she, too, was one of the white women that Google will undoubtedly claim towards their “diversity” efforts in their 2018 report. 
+
+Diversity recruitment, however, does not just rely on bringing in people from different unrepresented groups, including white women. It also focuses on figures from employee retention rates. It should be noted that on average Google retains employees just under two years (1.9), which is not far off from many other tech giants including Facebook (2.02 years), Apple (1.85 years), and Amazon (1.84 years). This can partially be explained by the stressful, time consuming environments that workers in tech experience on the job, but that does not fully paint the picture of Google’s issues with retaining employees from marginalized groups. Many employees of color have made it apparent that their experiences working for google have been less than satisfactory. Even with programs that connect black and brown google across entire departments, or programs that bring in university students from historically black colleges the way these employers and students are treated in their own Google campus’ have led me to believe that Google is trying to solve their diversity issues the wrong way. 
+
+**Data Provided by [Google](https://diversity.google/commitments/)**
+
+<center> <h3>Google's Reported Demographic Information: 2014-2017</h3> </center>
+```{r fig.width= 20, fig.height = 10, echo=FALSE}
+percentage <- c(70,30,61,30,4,3,2,1,1,70,30,60,31,3,3,2,1,1,69,31,59,32,3,3,2,1,1,69,31,56,35,4,4,2,1,1 )
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
+```
+<center> <h3>Google's Reported Demographic Information: Tech Based Jobs 2014-2017</h3> </center>
+```{r fig.width= 20, fig.height = 10, echo=FALSE}
+percentage <- c(83,17,60,33,3,2,1,1,1,82,18,59,35,3,2,1,1,1,81,19,57,37,3,3,1,1,1,80,20,53,39,3,3,1,1,1)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
+```
+
+
+<center> <h3>Google's Reported Demographic Information: Non-Tech Based Jobs 2014-2017</h3> </center>
+```{r fig.width= 20, fig.height = 10, echo=FALSE}
+percentage <- c(52,48,65,23,5,4,3,1,1,53,47,64,23,4,4,4,1,1,53,47,63,23,4,5,4,1,1,52,48,61,23,5,5,5,1,1)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
+```
+
+
+
+<center> <h3>Google's Reported Demographic Information: Leadership Positions 2014-2017</h3> </center>
+```{r fig.width= 20, fig.height = 10, echo=FALSE}
+percentage <- c(79,21,72,3,1,1,1,1,1,78,22,72,23,2,1,2,1,1,76,24,70,25,2,1,2,1,1,75,25,68,27,2,2,2,1,1)
+
+mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
+                 dimnames = list(c("Female", "Male", "White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
+                                 c("2014", "2015","2016","2017")))
+#colors <- c("darkblue", "red", "orange", "cyan", "green", "magenta", "blue", "black", "pink")
+years <- c("2014", "2015","2016","2017")
+barplot(t(mydata), beside = TRUE, col = c("Blue", "Green", "Yellow", " Red"), 
+        ylim = c(0,100), axes = FALSE,
+        ylab = "Overall Percentage",
+        xlab = "Demographic by Year")
+
+axis(2, at = 0:100, labels = 0:100)
+legend("topright", c("2014", "2015","2016","2017"),
+years, col=c("Blue", "Green", "Yellow", " Red"), lwd=4)
 ```
