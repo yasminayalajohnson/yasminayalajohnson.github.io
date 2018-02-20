@@ -1,16 +1,18 @@
-name: "Yasmin Ayala-Johnson"
-output_dir: "."
+name: Yasmin Ayala-Johnson
+output_dir: '.'
 navbar:
-  title: "Selected Topics Statistics Project"
+  title: Selected Topics Statistics Project
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Other"
-      href: other.html
+  - text: "Home"
+    href: index.html
+  - text: "Google"
+    href: about.html
+  - text: "Creator"
+    href: other.html
 output:
   html_document:
     theme: flatly
     highlight: zenburn
-  
+    lib_dir: site_libs
+    self_contained: no
+
