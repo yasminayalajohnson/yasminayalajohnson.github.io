@@ -1,3 +1,9 @@
 ---
-title: Home
+title: House
 ---
+<figure>
+<img src="myimageforwebsite.jpg"
+style = "height:200px;"
+align = "right" , hspace = "25">
+</figure>
+

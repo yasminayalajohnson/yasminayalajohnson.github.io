@@ -3,11 +3,11 @@ output_dir: '.'
 navbar:
   title: Selected Topics Statistics Project
   left:
-  - text: "Home"
+  - text: Home
     href: index.html
-  - text: "Google"
+  - text: Google
     href: about.html
-  - text: "Creator"
+  - text: Creator
     href: other.html
 output:
   html_document:
