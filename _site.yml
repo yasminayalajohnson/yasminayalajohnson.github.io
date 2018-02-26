@@ -1,13 +1,13 @@
 name: Yasmin Ayala-Johnson
 output_dir: '.'
 navbar:
-  title: Selected Topics Statistics Project
+  title: Yasmin Ayala-Johnson
   left:
-  - text: Home
+  - text: "Current Research"
     href: index.html
-  - text: Google
+  - text: "Research of Interest"
     href: about.html
-  - text: Creator
+  - text: "Creator"
     href: other.html
 output:
   html_document:

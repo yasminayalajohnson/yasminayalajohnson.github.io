@@ -176,3 +176,9 @@ legend("topright", c("2014", "2015","2016","2017"),
 years, col=c("Blue", "Green", "Yellow", " Red"), lwd=2)
 ```
 
+
+
+library(ggplot2)
+ggplot(RaceOverall.csv, aes(x = Year, y = Percentage, color = Race)) +
+  geom_line() +
+  geom_smooth(lwd = 2)
