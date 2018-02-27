@@ -16,3 +16,17 @@ All the data I'm using is sourced from that which is reported by Google in their
 
 Enjoy and explore my website friends! 
 
+
+
+<hr>
+
+Also if you like data visuals as much as me check out this graph dipicting what people (in the US) spend their time on throughout their day.
+
+* **Original user description**:*"America's time usage over a 24 hour period. This data set is take from American Department of Labor Bureau of Labor and Statistics in 2014". You can also find it [here](https://www.linkedin.com/feed/update/urn:li:activity:6370732867219181568/).*
+
+**Super Cool Stuff Here**
+
+<figure align = "middle">
+<iframe width="650" height="400" src="time_use_data.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</figure> 
+
