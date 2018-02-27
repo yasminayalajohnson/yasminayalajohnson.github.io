@@ -6,11 +6,11 @@ title: Current Research Projects
 style = "height:200px;"
 align = "right" , hspace = "25">
 </figure>
-
+<hr>
 The research projects I'm currently working on are apart of Appalachian State's Human Factors Research Team. This team is held under Appstate's department of Psychology and is made up of undergraduate students interested in research and graduate students in the Industrial-Organizational and Human Resource Management (IOHRM) master's program. Over the entire team are two professors, Dr.Yalcin Acikgoz and Dr.Shawn Bergman. 
 
 
-
+<hr>
 ###Cross Cultural Examination of Applicant Reactions to Social Media Screening
 
 This first research topic was started as an independent studies research project with myself, Dr. Acikgoz, along with two researchers in Turkey, Dr. Ezgi Demircioglu (Middle East Technical University), and Dr. Canan Sumer (Middle East Technical University). 
@@ -29,7 +29,7 @@ align = "middle" , hspace = "25">
 
 
 
-
+<hr>
 ###Applicant Reactions to Artificial Intelligence in the Selection Process
 
 The use of advanced technology such as artificial intelligence (AI) in the selection process has become an increasingly popular practice within organizations. However, little research has examined how applicants react to these new procedures and how those reactions may affect outcomes such as perceptions of fairness, organizational attraction, and job pursuit intentions. Previous research has suggested that the use of technology in the selection process may lead to more negative outcomes when compared to using traditional selection procedures such as face-to-face interviewing. The purpose of this study is to examine applicant reactions to the use of advanced decision-making technologies in the selection process, such as artificial intelligence systems that make hiring decisions. Determining how applicants react to the use of technology in the selection process serves to help organizations better understand how these practices affect job seekers’ perceptions of the organization. The results of this study may help organizations weigh the pros and cons of using computer information systems to select applicants instead of using a traditional selection procedure.
