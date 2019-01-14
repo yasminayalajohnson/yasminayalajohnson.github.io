@@ -1,11 +1,12 @@
 ---
-title: Current Research Projects
+title: Research Projects
 ---
 <figure>
-<img src="myimageforwebsite.jpg"
-style = "height:200px;"
-align = "right" , hspace = "25">
-</figure>
+<img src="pic10.png",
+style = "height:250px;"
+align = "right" , hspace = "5">
+</figure> 
+
 <hr>
 The research projects I'm currently working on are apart of Appalachian State's Human Factors Research Team. This team is held under Appstate's department of Psychology and is made up of undergraduate students interested in research and graduate students in the Industrial-Organizational and Human Resource Management (IOHRM) master's program. Over the entire team are two professors, Dr.Yalcin Acikgoz and Dr.Shawn Bergman. 
 
@@ -24,7 +25,7 @@ To see more it is archived in the [University of Tennessee Chattanooga, River Ci
 <figure>
 <img src="research.jpg"
 style = "height:400px;"
-align = "middle" , hspace = "25">
+align = "center" , hspace = "50">
 </figure>
 
 

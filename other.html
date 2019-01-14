@@ -11,7 +11,7 @@
 
 
 
-<title>About The Creator of This Here Website</title>
+<title>About Me</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -73,8 +73,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -90,7 +96,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -110,6 +115,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -131,18 +173,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -181,30 +282,43 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About The Creator of This Here Website</h1>
+<h1 class="title toc-ignore">About Me</h1>
 
 </div>
 
 
 <figure>
-<img src="pic4.jpg"
-style = "height:200px;"
-align = "right" , hspace = "25">
+<img src="myimageforwebsite.jpg"
+style = "height:250px;"
+align = "left", hspace = "5">
 </figure>
-<p>Hi, my name is Yasmin Ayala-Johnson. I am currently, in 2018, a student at Appalachian State University. At App I am pursing a Psychology major, business concentration, and double minor in statistics and human resources.</p>
-<p>I know you’re probably super interested as to why I have created this website. Primary it was created as part of a class assignment but also because learning to code is <sup>realLy</sup> <sup>cool</sup> and is worth all the work. I’m also really intrigue by issues pertaining to organizational science and data science. For all these reasons, I created this websites as it stands.</p>
-<p>All the data I’m using is sourced from that which is reported by Google in their yearly demograph reports, or by other reliable sources. If you have any question about my website, including the content, the code, or me please <a href="mailto:ayalajohnsonyc@appstate.edu">email me</a> or connect with me on <a href="https://www.linkedin.com/in/yasminayalajohnson/">LinkedIn</a>.</p>
+<p>Hi, my name is Yasmin Ayala-Johnson. I am currently, in 2019, a student at Appalachian State University pursing an undergraduate degree in Psychology with a business concentration, and double minor in statistics and human resources. Additionally, I am apart of accelerated admissions graduate program for applied data analytics.</p>
+<div id="why-i-created-this-website" class="section level5">
+<h5><strong>Why I created this website</strong></h5>
+<p>Primary it was created as part of a class assignment but I’d also like it serve as an example of how coding can be <sup>realLy</sup> <sup>cool</sup> and serve as a creative outlet for students, especially those from underrepresented demographics in tech. As technology and coding grow in the forms of website development or data analytics, along with societal views that allow for more access to it, I’d love to see more women (and girls!) of color thrive in this field.</p>
+<p>I’m also really intrigue by issues pertaining to organizational science and data science. For all these reasons, I created this websites as it stands.</p>
+</div>
+<div id="disclaimer" class="section level5">
+<h5><strong>Disclaimer</strong></h5>
+<p>All the data I’m using is sourced from public <a href="https://diversity.google/annual-report/#!#_our-workforce">Google’s yearly demograph reports</a>, or by other reliable sources.</p>
+</div>
+<div id="contact-me" class="section level5">
+<h5><strong>Contact Me</strong></h5>
+<p>If you have any question about my website, including the content, the code, or me please <a href="mailto:ayalajohnsonyc@appstate.edu">email me</a> or connect with me on <a href="https://www.linkedin.com/in/yasminayalajohnson/">LinkedIn</a>.</p>
 <p>Enjoy and explore my website friends!</p>
 <hr>
-<p>Also if you like data visuals as much as me check out this graph dipicting what people (in the US) spend their time on throughout their day.</p>
+</div>
+<div id="extras" class="section level5">
+<h5><strong>Extras</strong></h5>
+<p>If you like data visuals as much as me check out this graph dipicting what people (in the US) spend their time on throughout their day.</p>
 <ul>
-<li><strong>Original user description</strong>:<em>“America’s time usage over a 24 hour period. This data set is take from American Department of Labor Bureau of Labor and Statistics in 2014”. You can also find it <a href="https://www.linkedin.com/feed/update/urn:li:activity:6370732867219181568/">here</a>.</em></li>
+<li><strong>Original user description</strong>:* “America’s time usage over a 24 hour period. This data set is take from American Department of Labor Bureau of Labor and Statistics in 2014”. You can also find it <a href="https://www.linkedin.com/feed/update/urn:li:activity:6370732867219181568/">here</a>.*</li>
 </ul>
-<p><strong>Super Cool Stuff Here</strong></p>
 <figure align="middle">
 <iframe width="650" height="400" src="time_use_data.mp4" allow="autoplay; encrypted-media" allowfullscreen>
 </iframe>
 </figure>
+</div>
 
 
 

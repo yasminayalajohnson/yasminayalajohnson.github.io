@@ -1,30 +1,38 @@
 ---
-title: "About The Creator of This Here Website"
+title: "About Me"
 ---
 
 <figure>
-<img src="pic4.jpg"
-style = "height:200px;"
-align = "right" , hspace = "25">
-</figure> 
-Hi, my name is Yasmin Ayala-Johnson. I am currently, in 2018, a student at Appalachian State University. At App I am pursing a Psychology major, business concentration, and double minor in statistics and human resources. 
+<img src="myimageforwebsite.jpg"
+style = "height:250px;"
+align = "left", hspace = "5">
+</figure>
+Hi, my name is Yasmin Ayala-Johnson. I am currently, in 2019, a student at Appalachian State University pursing an undergraduate degree in Psychology  with a business concentration, and double minor in statistics and human resources. Additionally, I am apart of accelerated admissions graduate program for applied data analytics. 
 
-I know you're probably super interested as to why I have created this website. Primary it was created as part of a class assignment but also because learning to code is ^realLy^ ^cool^ and is worth all the work. I'm also really intrigue by issues pertaining to organizational science and data science. For all these reasons, I created this websites as it stands. 
 
-All the data I'm using is sourced from that which is reported by Google in their yearly demograph reports, or by other reliable sources. If you have any question about my website, including the content, the code, or me please [email me](mailto:ayalajohnsonyc@appstate.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/yasminayalajohnson/).
+
+#####**Why I created this website**
+Primary it was created as part of a class assignment but I'd also like it serve as an example of how coding can be ^realLy^ ^cool^ and serve as a creative outlet for students, especially those from underrepresented demographics in tech. As technology and coding grow in the forms of website development or data analytics, along with societal views that allow for more access to it, I'd love to see more women (and girls!) of color thrive in this field. 
+
+I'm also really intrigue by issues pertaining to organizational science and data science. For all these reasons, I created this websites as it stands. 
+
+
+#####**Disclaimer**
+All the data I'm using is sourced from public [Google's yearly demograph reports](https://diversity.google/annual-report/#!#_our-workforce), or by other reliable sources. 
+
+
+#####**Contact Me**
+If you have any question about my website, including the content, the code, or me please [email me](mailto:ayalajohnsonyc@appstate.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/yasminayalajohnson/).
 
 
 Enjoy and explore my website friends! 
 
 
-
 <hr>
+#####**Extras**
+If you like data visuals as much as me check out this graph dipicting what people (in the US) spend their time on throughout their day.
 
-Also if you like data visuals as much as me check out this graph dipicting what people (in the US) spend their time on throughout their day.
-
-* **Original user description**:*"America's time usage over a 24 hour period. This data set is take from American Department of Labor Bureau of Labor and Statistics in 2014". You can also find it [here](https://www.linkedin.com/feed/update/urn:li:activity:6370732867219181568/).*
-
-**Super Cool Stuff Here**
+* **Original user description**:* "America's time usage over a 24 hour period. This data set is take from American Department of Labor Bureau of Labor and Statistics in 2014". You can also find it [here](https://www.linkedin.com/feed/update/urn:li:activity:6370732867219181568/).*
 
 <figure align = "middle">
 <iframe width="650" height="400" src="time_use_data.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>

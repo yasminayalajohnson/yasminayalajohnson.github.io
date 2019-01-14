@@ -2,27 +2,34 @@
 title: "Google's Diversity Issues"
 ---
 <figure>
-<img src="myimageforwebsite.jpg"
-style = "height:200px;"
-align = "right" , hspace = "25">
-</figure>
+<img src="pic10.png",
+style = "height:250px;"
+align = "left", hspace = "5">
+</figure> 
 
 
 <figure>
 <img src="Googlepic.png"
 style = "height:200px;"
-align = "left" >
+align = "right" , hspace = "25" >
 </figure>
 
-One issue at the forefront of many professionals in organizational science is on diversity. There have been many debates on what that means or how companies go about “diversity recruitment” the wrong ways. For example, while Google has made it a point to release their own reports on where their current employee demographic are (as far as diversity), they have almost exclusively, since 2014, focused on gender in their tactics. This has not only led them to criticism, especially since black and Hispanic employees have consistently made up a mere 3-5% of their company since they begin releasing reports four years ago, but because the women that they are bring in are overwhelmingly white women. This past June Google went even further to instate a new vice president of diversity, Danielle Brown. It came as no surprise to anyone when she, too, was one of the white women that Google will undoubtedly claim towards their “diversity” efforts in their 2018 report. 
+One issue at the forefront of many professionals in organizational science is on diversity. There have been many debates on what that means or how companies can improve their efforts in including diversity recruitment. While pursued with good intentions, many companies have found themselves in the mist of court cases that question the legality of their efforts and critism from the general public about the impact of thier new tactics.
 
-Diversity recruitment, however, does not just rely on bringing in people from different unrepresented groups, including white women. It also focuses on figures from employee retention rates. It should be noted that on average Google retains employees just under two years (1.9), which is not far off from many other tech giants including Facebook (2.02 years), Apple (1.85 years), and Amazon (1.84 years). This can partially be explained by the stressful, time consuming environments that workers in tech experience on the job, but that does not fully paint the picture of Google’s issues with retaining employees from marginalized groups. Many employees of color have made it apparent that their experiences working for google have been less than satisfactory. Even with programs that connect black and brown google across entire departments, or programs that bring in university students from historically black colleges the way these employers and students are treated in their own Google campus’ have led me to believe that Google is trying to solve their diversity issues the wrong way. 
+For example, while Google has made it a point to release their own reports on current employee demographics (as far as diversity), they have, since 2014, improved almost exclusively on gender. This has not only led them to criticism, especially since black and Hispanic employees have consistently made up a mere 3-5% of their company since they begin releasing reports four years ago, but because the women that they are bring in are overwhelmingly white women. It was in June of 2017 when Google went further in their efforts to instate a new vice president of diversity, Danielle Brown. It came as no surprise to anyone when she, too, was one of the white women that Google will undoubtedly claim towards their diversity efforts in their 2018 report. 
+
+Diversity recruitment, however, does not just rely on bringing in people from different unrepresented groups, including white women. It also focuses on figures from employee retention rates. It should be noted that on average Google retains employees just under two years (1.9), which is not far off from many other tech giants including Facebook (2.02 years), Apple (1.85 years), and Amazon (1.84 years). This can partially be explained by the stressful, time consuming environments that workers in tech experience on the job. 
+
+However, that does not fully paint the picture of Google’s issues with retaining employees from marginalized groups. Many employees of color have made it apparent that their experiences working for google have been less than satisfactory. Even with programs that connect black and brown googlers across entire departments, or programs that bring in university students from historically black colleges, the way these employers and students are treated on their own Google campus’ have led me to believe that Google has a long way to go to achieve their goals of moving from unconscious bias to conscious action. 
 
 **Data Provided by [Google](https://diversity.google/commitments/)**
 
 <center> <h3>Google's Reported Demographic Information: 2014-2017</h3> </center>
 ```{r fig.width= 20, fig.height = 10, echo=FALSE}
-percentage <- c(72,3,1,1,1,1,1,72,23,2,1,2,1,1,70,25,2,1,2,1,1,68,27,2,2,2,1,1 )
+percentage <- c(72,3,1,1,1,1,1,
+                72,23,2,1,2,1,1,
+                70,25,2,1,2,1,1,
+                68,27,2,2,2,1,1 )
 
 mydata <- matrix(percentage, ncol = 4, byrow = FALSE,
                  dimnames = list(c("White", "Asian", "Mixed Race", "Hispanic", "Black", "Native American", "Pacific Islander"), 
@@ -175,10 +182,3 @@ axis(2, at = 0:100, labels = 0:100)
 legend("topright", c("2014", "2015","2016","2017"),
 years, col=c("Blue", "Green", "Yellow", " Red"), lwd=2)
 ```
-
-
-
-library(ggplot2)
-ggplot(RaceOverall.csv, aes(x = Year, y = Percentage, col= factor(Race))) +
-  geom_line() +
-  geom_smooth(lwd = 2)
