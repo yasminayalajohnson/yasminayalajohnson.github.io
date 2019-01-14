@@ -9,17 +9,14 @@ align = "left", hspace = "5">
 </figure>
 Hi, my name is Yasmin Ayala-Johnson. I am currently, in 2019, a student at Appalachian State University pursing an undergraduate degree in Psychology  with a business concentration, and double minor in statistics and human resources. Additionally, I am apart of accelerated admissions graduate program for applied data analytics. 
 
-
+##### 
+##### 
 
 #####**Why I created this website**
-Primary it was created as part of a class assignment but I'd also like it serve as an example of how coding can be ^realLy^ ^cool^ and serve as a creative outlet for students, especially those from underrepresented demographics in tech. As technology and coding grow in the forms of website development or data analytics, along with societal views that allow for more access to it, I'd love to see more women (and girls!) of color thrive in this field. 
+Primary it was created as part of a class assignment but I'd also like it serve as an example of how coding can be ^really^ ^cool^ and serve as a creative outlet for students, especially those from underrepresented demographics in tech. As technology and coding grow in the forms of website development or data analytics, along with societal views that allow for more access to it, I'd love to see more women (and girls!) of color thrive in this field. 
 
-I'm also really intrigue by issues pertaining to organizational science and data science. For all these reasons, I created this websites as it stands. 
-
-
-#####**Disclaimer**
-All the data I'm using is sourced from public [Google's yearly demograph reports](https://diversity.google/annual-report/#!#_our-workforce), or by other reliable sources. 
-
+##### 
+##### 
 
 #####**Contact Me**
 If you have any question about my website, including the content, the code, or me please [email me](mailto:ayalajohnsonyc@appstate.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/yasminayalajohnson/).
